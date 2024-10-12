@@ -9,30 +9,30 @@ export default function Navbar() {
       <ul className="flex justify-between md:justify-around w-full">
         <Link
           to="/"
-          className="text-white font-black hover:text-slate-400 text-lg"
+          className="text-amber-300 font-black hover:text-amber-400 text-xl"
         >
           Home
         </Link>
 
         <Link
-          to="/aboutus"
-          className="text-white font-black hover:text-slate-400 text-lg"
+          to="/uebermich"
+          className="text-amber-300 font-black hover:text-amber-400 text-xl"
         >
-          About us
+          Über mich
         </Link>
 
-        <Link
+        {/* <Link
           to="/workshops"
           className="text-white font-black hover:text-slate-400 text-lg"
         >
           Workshops
-        </Link>
+        </Link> */}
 
         <Link
-          to="/contact"
-          className="text-white font-black hover:text-slate-400 text-lg"
+          to="/kontakt"
+          className="text-amber-300 font-black hover:text-amber-400 text-xl"
         >
-          Contact
+          Kontakt
         </Link>
       </ul>
     </nav>
