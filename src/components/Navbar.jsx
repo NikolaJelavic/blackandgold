@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-full bg-black flex py-5 px-1 h-20">
-      <ul className="flex justify-between md:justify-around w-full">
+      <ul className="flex justify-around md:justify-around w-full">
         <Link
           to="/"
           className="text-amber-300 font-black hover:text-amber-400 text-xl"
