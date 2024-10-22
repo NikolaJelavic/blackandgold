@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes shine {
+  0% {
+    background-position: -200%; /* Start from left off-screen */
+  }
+  100% {
+    background-position: 200%; /* Move to right off-screen */
+  }
+}
+
+.shiny-text {
+  background: linear-gradient(
+    90deg,
+    #000000 0%,   /* Start with black */
+    #f0b909 25%,  /* Gold shine */
+    #fff4a3 50%,  /* Bright gold/white for contrast */
+    #f0b909 75%,  /* Gold shine */
+    #000000 100%  /* End with black */
+  );
+  background-size: 300%; /* Larger background for a sweeping effect */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 6s linear infinite; /* Slow animation (6s) */
+}
+
+
+

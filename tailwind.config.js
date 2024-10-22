@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        gold: '#D4AF37', // Example of gold color
+        'gold-dark': '#B38B30', // Darker gold for hover effect
+      },
+    },
   },
   plugins: [],
 }
