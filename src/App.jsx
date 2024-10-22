@@ -3,7 +3,7 @@ import './App.css';
 import Home from './pages/Home';
 import UeberMich from './pages/UeberMich';
 import Kontakt from './pages/Kontakt';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 // import Workshops from './pages/Workshops';
 
 
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Router>
-        <Navbar />
+        {/* <Navbar /> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/uebermich" element={<UeberMich />} />
