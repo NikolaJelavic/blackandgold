@@ -55,10 +55,10 @@
     #f0b909 75%,  /* Gold shine */
     #000000 100%  /* End with black */
   );
-  background-size: 300%; /* Larger background for a sweeping effect */
+  background-size: 500%; /* Larger background for a sweeping effect */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: shine 6s linear infinite; /* Slow animation (6s) */
+  animation: shine 10s linear infinite; /* Slow animation (6s) */
 }
 
 
