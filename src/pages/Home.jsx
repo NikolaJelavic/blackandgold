@@ -39,9 +39,9 @@ const HomePage = () => {
             alt="Black and Gold Logo"
             className="mx-auto mb-8 w-full max-w-md lg:max-w-lg object-cover"
           />
-          <h1 className="text-6xl font-extrabold shiny-text mb-4">
+          {/* <h1 className="text-6xl font-extrabold shiny-text mb-4">
             BLACK AND GOLD
-          </h1>
+          </h1> */}
           <p className="text-lg font-semibold text-gray-300">
             Personal Trainer & Präventionsberater
           </p>
