@@ -30,6 +30,13 @@ const HomePage = () => {
 
   return (
     <div className="bg-black text-white min-h-screen">
+      {/* Trainer Name Section */}
+      <section className="py-6 text-center bg-black">
+        <h1 className="text-2xl md:text-3xl font-bold text-gold">
+          Trainer - Ahmad Dakhloul
+        </h1>
+      </section>
+
       {/* Hero Section */}
       <section className="relative flex items-center justify-center h-screen bg-black">
         <div className="absolute inset-0 bg-gradient-to-b from-black to-gray-900 opacity-80"></div>
@@ -39,9 +46,6 @@ const HomePage = () => {
             alt="Black and Gold Logo"
             className="mx-auto mb-8 w-full max-w-md lg:max-w-lg object-cover"
           />
-          {/* <h1 className="text-6xl font-extrabold shiny-text mb-4">
-            BLACK AND GOLD
-          </h1> */}
           <p className="text-lg font-semibold text-gray-300">
             Personal Trainer & Präventionsberater
           </p>
@@ -71,43 +75,41 @@ const HomePage = () => {
       </section>
 
       {/* Services Section */}
-<section className="py-16 px-4 md:px-8 bg-black text-center">
-  <h2 className="text-4xl font-bold text-gold mb-12">Unsere Leistungen</h2>
-  <div className="flex flex-wrap justify-center gap-8">
-    <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
-      <h3 className="text-2xl font-semibold text-gold mb-4">Personal Trainer</h3>
-      <p className="text-gray-400">
-        Individuell angepasste Trainingspläne basierend auf Ihren Fitnesszielen.
-      </p>
-    </div>
-    <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
-      <h3 className="text-2xl font-semibold text-gold mb-4">Gesundheitstrainer & Präventionsberater</h3>
-      <p className="text-gray-400">
-        Präventionstraining zur Verbesserung Ihrer Lebensqualität und zur Vermeidung von Gesundheitsrisiken.
-      </p>
-    </div>
-    <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
-      <h3 className="text-2xl font-semibold text-gold mb-4">Ernährungsberater</h3>
-      <p className="text-gray-400">
-        Ernährungsberatung zur Ergänzung Ihres Fitnessplans.
-      </p>
-    </div>
-    <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
-      <h3 className="text-2xl font-semibold text-gold mb-4">Kinder- und Jugendtrainer</h3>
-      <p className="text-gray-400">
-        Spezielles Training für Kinder und Jugendliche.
-      </p>
-    </div>
-    <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
-      <h3 className="text-2xl font-semibold text-gold mb-4">Boxkurse</h3>
-      <p className="text-gray-400">
-        Wir bieten auch Boxkurse an, die für alle Leistungslevels geeignet sind und sowohl Fitness als auch Technik fördern.
-      </p>
-    </div>
-  </div>
-</section>
-
-
+      <section className="py-16 px-4 md:px-8 bg-black text-center">
+        <h2 className="text-4xl font-bold text-gold mb-12">Unsere Leistungen</h2>
+        <div className="flex flex-wrap justify-center gap-8">
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
+            <h3 className="text-2xl font-semibold text-gold mb-4">Personal Trainer</h3>
+            <p className="text-gray-400">
+              Individuell angepasste Trainingspläne basierend auf Ihren Fitnesszielen.
+            </p>
+          </div>
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
+            <h3 className="text-2xl font-semibold text-gold mb-4">Gesundheitstrainer & Präventionsberater</h3>
+            <p className="text-gray-400">
+              Präventionstraining zur Verbesserung Ihrer Lebensqualität und zur Vermeidung von Gesundheitsrisiken.
+            </p>
+          </div>
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
+            <h3 className="text-2xl font-semibold text-gold mb-4">Ernährungsberater</h3>
+            <p className="text-gray-400">
+              Ernährungsberatung zur Ergänzung Ihres Fitnessplans.
+            </p>
+          </div>
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
+            <h3 className="text-2xl font-semibold text-gold mb-4">Kinder- und Jugendtrainer</h3>
+            <p className="text-gray-400">
+              Spezielles Training für Kinder und Jugendliche.
+            </p>
+          </div>
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 w-full sm:w-1/2 md:w-1/3 lg:w-1/4">
+            <h3 className="text-2xl font-semibold text-gold mb-4">Boxkurse</h3>
+            <p className="text-gray-400">
+              Wir bieten auch Boxkurse an, die für alle Leistungslevels geeignet sind und sowohl Fitness als auch Technik fördern.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Footer Section */}
       <footer className="bg-gray-900 py-8">
@@ -115,7 +117,10 @@ const HomePage = () => {
           <h3 className="text-2xl font-semibold text-gold mb-4">Kontaktieren Sie uns</h3>
           <div className="text-center">
             <p className="text-gray-400 mb-2">
-              <SocialIcon network="whatsapp" style={{ height: 35, width: 35, cursor: 'default' }} /> 0176/47549199 
+              {/* Make WhatsApp clickable to call the number */}
+              <a href="tel:+4917647549199" style={{ textDecoration: 'none', color: 'inherit' }}>
+                <SocialIcon network="whatsapp" style={{ height: 35, width: 35, cursor: 'pointer' }} /> 0176/47549199
+              </a>
             </p>
             <p className="text-gray-400 mb-2">
               <SocialIcon network="email" style={{ height: 35, width: 35, cursor: 'default', color: 'green' }} /> blackundgold@outlook.com
