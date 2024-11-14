@@ -33,7 +33,7 @@ const HomePage = () => {
       {/* Trainer Name Section */}
       <section className="py-6 text-center bg-black">
         <h1 className="text-2xl md:text-3xl font-bold text-gold">
-          Trainer - Ahmad Dakhloul
+          Trainer - Ahmed Abu Hamza
         </h1>
       </section>
 
