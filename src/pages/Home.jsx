@@ -30,12 +30,7 @@ const HomePage = () => {
 
   return (
     <div className="bg-black text-white min-h-screen">
-      {/* Trainer Name Section */}
-      <section className="py-6 text-center bg-black">
-        <h1 className="text-2xl md:text-3xl font-bold text-gold">
-          Trainer - Ahmed Abu Hamza
-        </h1>
-      </section>
+      
 
       {/* Hero Section */}
       <section className="relative flex items-center justify-center h-screen bg-black">
@@ -114,8 +109,15 @@ const HomePage = () => {
       {/* Footer Section */}
       <footer className="bg-gray-900 py-8">
         <div className="text-center">
-          <h3 className="text-2xl font-semibold text-gold mb-4">Kontaktieren Sie uns</h3>
+          <h3 className="text-2xl font-semibold text-gold mb-4">Trainer - Ahmed Abu Hamza</h3>
+          {/* Trainer Name Section */}
+      {/* <section className="py-6 text-center bg-black">
+        <h1 className="text-2xl md:text-3xl font-bold text-gold">
+          Trainer - Ahmed Abu Hamza
+        </h1>
+      </section> */}
           <div className="text-center">
+
             <p className="text-gray-400 mb-2">
               {/* Make WhatsApp clickable to call the number */}
               <a href="tel:+4917647549199" style={{ textDecoration: 'none', color: 'inherit' }}>
